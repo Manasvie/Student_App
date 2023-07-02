@@ -1,4 +1,4 @@
-# StudentApp
+# Student_App
 A basic web app to add and display Student data. 
 # TechStack 
 Python, Flask, ReactJS, MongoDB
@@ -15,4 +15,4 @@ Python, Flask, ReactJS, MongoDB
   npm start
 ```
 
-# Student_App
+
