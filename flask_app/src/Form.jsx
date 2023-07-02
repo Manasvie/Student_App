@@ -74,6 +74,7 @@ return (
         <button type="submit">Submit</button>
       </form>
       <h2>Submitted Data:</h2>
+      <div className="submitted-data-container">
       <table className="submitted-data">
         <thead>
           <tr>
@@ -90,6 +91,7 @@ return (
           ))}
         </tbody>
       </table>
+     </div>
     </div>
   );
 }
