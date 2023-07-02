@@ -49,7 +49,7 @@ function Form() {
 
 return (
     <div className="form-container">
-      <h1>Student Data</h1>
+      <h1 className='heading'>Student Data</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>
@@ -73,7 +73,7 @@ return (
         </div>
         <button type="submit">Submit</button>
       </form>
-      <h2>Submitted Data:</h2>
+      <h2 className='heading'>Submitted Data:</h2>
       <div className="submitted-data-container">
       <table className="submitted-data">
         <thead>
