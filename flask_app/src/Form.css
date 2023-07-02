@@ -4,12 +4,18 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    background: linear-gradient(to bottom, #e6ecec, #b7bdbd);
   }
-  
+  .heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #174b47;
+  }
   .form-group {
     margin-bottom: 20px;
   }
-  
+  body{
+    background-color: #859f9d;
+  }
   label {
     font-weight: bold;
   }
@@ -22,7 +28,7 @@
   }
   
   button {
-    background-color: #007bff;
+    background-color: #4b847f;
     color: #fff;
     padding: 8px 16px;
     border: none;
@@ -33,7 +39,7 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #174b47;
   }
 
   .submitted-data-container {
