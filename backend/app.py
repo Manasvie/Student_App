@@ -8,7 +8,7 @@ CORS(app)  # Enable CORS to allow cross-origin requests
 # MongoDB configuration
 mongo_client = MongoClient('mongodb+srv://AppDBuser:bxfXTP99jvT3LNVl@intern.2dz7q1u.mongodb.net/')
 db = mongo_client['StudentDb']
-collection = db['student_info']
+collection = db['stu_info']
 
 
 @app.route('/students', methods=['GET', 'POST'])
